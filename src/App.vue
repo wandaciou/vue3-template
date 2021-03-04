@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <products-list-one v-bind:products="products"></products-list-one>
   <products-list-two v-bind:products="products"></products-list-two>
   <router-view></router-view>
